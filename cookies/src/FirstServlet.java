@@ -9,7 +9,7 @@ public class FirstServlet extends HttpServlet {
   public void doPost(HttpServletRequest request, HttpServletResponse response){
 	try{
 
-	response.setContentType("text/html");
+	response.setContentType   ("text/html");
 	PrintWriter out = response.getWriter();
 		
 	String n=request.getParameter("userName");
