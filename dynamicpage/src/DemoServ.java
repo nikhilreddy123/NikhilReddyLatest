@@ -8,4 +8,5 @@ res.setContentType("text/html");
 PrintWriter pw=res.getWriter();
 String name=req.getParameter("name");
 pw.println("Welcome "+name);
+System.out.println("asdasd");
 }}
