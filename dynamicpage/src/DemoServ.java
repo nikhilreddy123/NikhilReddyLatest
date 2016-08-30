@@ -6,5 +6,5 @@ public void doGet(HttpServletRequest req,HttpServletResponse res)throws ServletE
 {
 res.setContentType("text/html");
 PrintWriter pw=res.getWriter();
-String name=req.getParameter("name");
+
 }}
